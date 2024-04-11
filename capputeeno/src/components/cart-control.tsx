@@ -25,7 +25,7 @@ export function CartBadgeControl() {
   return (
     <Container>
       <ShoppingCartIcon />
-      {value.length && <CartCount>{value.length}</CartCount>}
+      {value.length > 0 && <CartCount>{value.length}</CartCount>}
     </Container>
   );
 }

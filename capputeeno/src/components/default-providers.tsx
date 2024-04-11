@@ -9,7 +9,7 @@ interface DefaultProvidersProps {
   children: ReactNode;
 }
 
-const theme = { desktopBreakpoint: "768px" };
+const theme = { desktopBreakpoint: "968px", tabletBreakpoint: "768px" };
 
 export function DefaultProvider({ children }: DefaultProvidersProps) {
   const client = new QueryClient();
